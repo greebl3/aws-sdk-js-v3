@@ -37,7 +37,7 @@ export type CloudfrontSignInputWithPolicy = CloudfrontSignInputBase & {
   /**
    * For this type ipAddress should not be provided.
    */
-  ipAddress?: string;
+  ipAddress?: never;
   /**
    * For this type dateGreaterThan should not be provided.
    */
